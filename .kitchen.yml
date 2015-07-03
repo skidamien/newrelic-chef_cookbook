@@ -13,5 +13,5 @@ suites:
   - name: default
     run_list:
       - recipe[apt]
-      - recipe[newrelic-cookbook::default]
+      - recipe[newrelic-chef_cookbook::default]
     attributes:
